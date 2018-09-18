@@ -16,7 +16,7 @@ const text = advertisement(category);
 console.log(text);
 
 
-//Another way of solving the problem----
+//Another way of solving the problem below----
 
 /*'use strict';
 
