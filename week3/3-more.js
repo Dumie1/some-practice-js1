@@ -1,16 +1,9 @@
 'use strict';
 
 function printObject(obj) {
-    return (
-        "firstName = " +
-        obj.firstName +
-        "\n" +
-        "lastName = " +
-        obj.lastName +
-        "\n" +
-        "city = " +
-        obj.city
-    );
+    for (key in obj) {
+        console.log(key + ' = ' + obj[key]);
+    }
 }
 
 const person = {
@@ -20,3 +13,8 @@ const person = {
 };
 
 console.log(printObject(person));
+
+/* References below eg feedback from mentors
+
+https://github.com/Dumie1/hyf-javascript1/issues/2
+*/

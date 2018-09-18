@@ -12,3 +12,9 @@ function vehicleType(color, code, age) {
 }
 
 console.log(vehicleType("blue", 1, 1));
+
+// vehicleType('red', 1, 1); // => 'a red new car'
+// vehicleType('blue', 1, 5); // => 'a blue used car'
+// vehicleType('green', 2, 1); // => 'a green new motorbike'
+// vehicleType('yellow', 2, 10); // => 'a yellow used motorbike'
+// vehicleType('magenta', 5, 1); // => 'unknown vehicle'
